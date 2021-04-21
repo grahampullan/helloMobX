@@ -1,0 +1,26 @@
+{
+  "name": "hellomobx",
+  "version": "1.0.0",
+  "description": "mobx first go",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "serve public",
+    "watch": "rollup -c -w"
+  },
+  "author": "Graham Pullan",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^6.7.0",
+    "mobx": "^6.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@rollup/plugin-replace": "^2.4.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "serve": "^11.3.2"
+  }
+}
